@@ -14,7 +14,9 @@ Cela se fait en trois étapes :
 - déploiement sur Kubernetes
 
 
-## Exercice 1 : Dockerfiles
+## ✔️ Exercice 1 : Dockerfiles
+
+Voir branche [Dockerfiles](https://github.com/thi3rry/wordsmith/tree/Dockerfiles)
 
 Le but de l'exercice est d'écrire les Dockerfiles pour les 3 containers.
 
@@ -169,7 +171,9 @@ Informations supplémentaires :
 - il est conseillé de protéger l'accès à la base avec un mot de passe, mais dans le cas présent, on acceptera de se simplifier la vie en autorisant toutes les connexions (en positionnant la variable `POSTGRES_HOST_AUTH_METHOD=trust`)
 
 
-## Exercice 2 : Compose file
+## ✔️ Exercice 2 : Compose file
+
+Voir branche [compose](https://github.com/thi3rry/wordsmith/tree/compose)
 
 Une fois que les trois images se construisent correctement, vous pouvez
 passer à l'écriture du Compose file. Nous conseillons de placer le Compose
