@@ -1,0 +1,13 @@
+services:
+  words:
+    build: ./words
+  db:
+    build: ./db
+    ports: 
+      - 5432:5432
+  web:
+    build: ./web
+    volumes:
+      - ./web:/app
+    ports:
+      - 8080:80
